@@ -4,7 +4,8 @@ import App from './App.tsx'
 import './index.css'
 import store from './store/store.ts' 
 import { Provider } from 'react-redux'
-store.dispatch({type:"account/deposit", payload:10}) // dispatch action to the store
+
+//store.dispatch({type:"account/deposit", payload:10}) // dispatch action to the store
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
